@@ -78,7 +78,6 @@ class Resnet(nn.Module):
         if return_features:
             return x
         x = self.fc1(x)
-        x = self.sigmoid(x)
         return x
         
     def _make_layer(self, block, num_residual_blocks, out_channels, stride):
