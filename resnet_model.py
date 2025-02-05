@@ -94,7 +94,7 @@ class Resnet(nn.Module):
         return nn.Sequential(*layers)
     
 
-def resnet50(channels, num_classes, n_layers=50):
+def resnet(channels, num_classes, n_layers=50):
     assert n_layers in [50, 101, 152], "n_layers has to be 50 or 101 or 152"
     n_blocks = [3, 4, 6, 3]
     if n_layers == 101:
