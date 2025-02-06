@@ -1,6 +1,6 @@
 ## Overview
 
-1D ResNet-50 is a deep learning model based on the classic ResNet-50 architecture but adapted for one-dimensional data. It is designed for tasks such as time-series classification, signal processing, and other sequence-based applications.
+1D ResNet is a deep learning model based on the classic ResNet architecture but adapted for one-dimensional data. It is designed for tasks such as time-series classification, signal processing, and other sequence-based applications.
 
 ## Installation
 
