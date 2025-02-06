@@ -18,6 +18,6 @@ from resnet_model import resnet
 import torch
 
 x = torch.randn(10, 5000, 12)  # Example input tensor
-model = resnet(input_channels=12, num_classes=5, depth=101)
+model = resnet(channels=12, num_classes=5, n_layers=101)
 logits = model(x)
 ```
