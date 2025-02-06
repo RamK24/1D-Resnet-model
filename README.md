@@ -7,7 +7,7 @@
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/1D-ResNet-50.git
-cd 1D-ResNet-50
+cd 1D-ResNet-model
 # Install dependencies
 pip install -r requirements.txt
 
